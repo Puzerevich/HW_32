@@ -1,0 +1,24 @@
+2023-04-19T23:07:14.524+03:00  WARN 9144 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h25m4s769ms590µs927ns).
+2023-04-19T23:28:22.675+03:00  INFO 9424 --- [restartedMain] c.e.h.Homework25SpringBootApplication    : Starting Homework25SpringBootApplication using Java 18.0.2 with PID 9424 (D:\JAVA\projekt\spring_data_access_homework\HW_32_spring_boot\target\classes started by Admin in D:\JAVA\projekt\spring_data_access_homework\homework_25_spring_boot)
+2023-04-19T23:28:22.678+03:00  INFO 9424 --- [restartedMain] c.e.h.Homework25SpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-04-19T23:28:22.754+03:00  INFO 9424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-19T23:28:22.760+03:00  INFO 9424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-19T23:28:23.500+03:00  INFO 9424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-19T23:28:23.559+03:00  INFO 9424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-04-19T23:28:24.199+03:00  INFO 9424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-19T23:28:24.212+03:00  INFO 9424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-19T23:28:24.213+03:00  INFO 9424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-19T23:28:24.284+03:00  INFO 9424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-19T23:28:24.284+03:00  INFO 9424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1523 ms
+2023-04-19T23:28:24.473+03:00  INFO 9424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-19T23:28:24.524+03:00  INFO 9424 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-19T23:28:24.810+03:00  INFO 9424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-19T23:28:24.998+03:00  INFO 9424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50752085
+2023-04-19T23:28:25.001+03:00  INFO 9424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-19T23:28:25.060+03:00  INFO 9424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-19T23:28:26.043+03:00  INFO 9424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-19T23:28:26.052+03:00  INFO 9424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-19T23:28:26.523+03:00  WARN 9424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-19T23:28:26.885+03:00  INFO 9424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-19T23:28:26.930+03:00  INFO 9424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-19T23:28:26.942+03:00  INFO 9424 --- [restartedMain] c.e.h.Homework25SpringBootApplication    : Started Homework25SpringBootApplication in 5.013 seconds (process running for 5.968)
